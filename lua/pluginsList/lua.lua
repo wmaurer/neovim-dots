@@ -13,8 +13,9 @@ return require("packer").startup(
         use {"907th/vim-auto-save"}
         use {"nvim-treesitter/nvim-treesitter"}
         use {"chriskempson/base16-vim"}
+        use {"arcticicestudio/nord-vim"}
         use {"norcalli/nvim-colorizer.lua"}
-        use { 'Yggdroot/indentLine'}
+        use {"Yggdroot/indentLine"}
         use {"ryanoasis/vim-devicons"}
         use {"sbdchd/neoformat"}
         use {"neovim/nvim-lspconfig"}
@@ -26,5 +27,6 @@ return require("packer").startup(
         use {"nvim-telescope/telescope.nvim"}
         use {"nvim-telescope/telescope-media-files.nvim"}
         use {"nvim-lua/popup.nvim"}
+        use {"schickling/vim-bufonly"}
     end
 )

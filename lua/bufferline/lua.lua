@@ -3,6 +3,8 @@ vim.o.termguicolors = true
 -- colors for active , inactive buffer tabs 
 require "bufferline".setup {
     options = {
+        numbers = "buffer_id",
+        number_style = "superscript",
         buffer_close_icon = "",
         modified_icon = "●",
         close_icon = "",

@@ -20,9 +20,11 @@ local cmd = vim.cmd
 local g = vim.g
 local indent = 2
 
-cmd "colorscheme base16-onedark"
+-- cmd "colorscheme base16-onedark"
+cmd "colorscheme nord"
 cmd "syntax enable"
 cmd "syntax on"
+cmd "set cursorline"
 
 g.auto_save = 1
 g.indentLine_enabled = 1
