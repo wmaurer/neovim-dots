@@ -28,5 +28,6 @@ return require("packer").startup(
         use {"nvim-telescope/telescope-media-files.nvim"}
         use {"nvim-lua/popup.nvim"}
         use {"schickling/vim-bufonly"}
+        use {"rafi/awesome-vim-colorschemes"}
     end
 )

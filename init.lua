@@ -20,8 +20,8 @@ local cmd = vim.cmd
 local g = vim.g
 local indent = 2
 
--- cmd "colorscheme base16-onedark"
-cmd "colorscheme nord"
+--cmd "colorscheme base16-nord"
+cmd "colorscheme mountaineer"
 cmd "syntax enable"
 cmd "syntax on"
 cmd "set cursorline"
@@ -54,6 +54,10 @@ cmd("hi PmenuSel  guibg=#98c379")
 cmd("hi NvimTreeFolderIcon guifg = #61afef")
 cmd("hi NvimTreeFolderName guifg = #61afef")
 cmd("hi NvimTreeIndentMarker guifg=#545862")
+
+if vim.fn.isdirectory('/node_modules') then
+  cmd "let $PATH .= ':' . $PWD . '/node_modules/.bin'"
+end
 
 require("nvim-autopairs").setup()
 

@@ -12,8 +12,8 @@ packadd packer.nvim
 try
 
 lua << END
-local package_path_str = "/home/sid/.cache/nvim/packer_hererocks/2.1.0-beta3/share/lua/5.1/?.lua;/home/sid/.cache/nvim/packer_hererocks/2.1.0-beta3/share/lua/5.1/?/init.lua;/home/sid/.cache/nvim/packer_hererocks/2.1.0-beta3/lib/luarocks/rocks-5.1/?.lua;/home/sid/.cache/nvim/packer_hererocks/2.1.0-beta3/lib/luarocks/rocks-5.1/?/init.lua"
-local install_cpath_pattern = "/home/sid/.cache/nvim/packer_hererocks/2.1.0-beta3/lib/lua/5.1/?.so"
+local package_path_str = "/home/wma/.cache/nvim/packer_hererocks/2.1.0-beta3/share/lua/5.1/?.lua;/home/wma/.cache/nvim/packer_hererocks/2.1.0-beta3/share/lua/5.1/?/init.lua;/home/wma/.cache/nvim/packer_hererocks/2.1.0-beta3/lib/luarocks/rocks-5.1/?.lua;/home/wma/.cache/nvim/packer_hererocks/2.1.0-beta3/lib/luarocks/rocks-5.1/?/init.lua"
+local install_cpath_pattern = "/home/wma/.cache/nvim/packer_hererocks/2.1.0-beta3/lib/lua/5.1/?.so"
 if not string.find(package.path, package_path_str, 1, true) then
   package.path = package.path .. ';' .. package_path_str
 end
@@ -34,96 +34,108 @@ end
 _G.packer_plugins = {
   ["base16-vim"] = {
     loaded = true,
-    path = "/home/sid/.local/share/nvim/site/pack/packer/start/base16-vim"
+    path = "/home/wma/.local/share/nvim/site/pack/packer/start/base16-vim"
   },
   ["galaxyline.nvim"] = {
     loaded = true,
-    path = "/home/sid/.local/share/nvim/site/pack/packer/start/galaxyline.nvim"
+    path = "/home/wma/.local/share/nvim/site/pack/packer/start/galaxyline.nvim"
   },
   ["gitsigns.nvim"] = {
     loaded = true,
-    path = "/home/sid/.local/share/nvim/site/pack/packer/start/gitsigns.nvim"
+    path = "/home/wma/.local/share/nvim/site/pack/packer/start/gitsigns.nvim"
   },
   indentLine = {
     loaded = true,
-    path = "/home/sid/.local/share/nvim/site/pack/packer/start/indentLine"
+    path = "/home/wma/.local/share/nvim/site/pack/packer/start/indentLine"
   },
   ["lspkind-nvim"] = {
     loaded = true,
-    path = "/home/sid/.local/share/nvim/site/pack/packer/start/lspkind-nvim"
+    path = "/home/wma/.local/share/nvim/site/pack/packer/start/lspkind-nvim"
   },
   neoformat = {
     loaded = true,
-    path = "/home/sid/.local/share/nvim/site/pack/packer/start/neoformat"
+    path = "/home/wma/.local/share/nvim/site/pack/packer/start/neoformat"
+  },
+  ["nord-vim"] = {
+    loaded = true,
+    path = "/home/wma/.local/share/nvim/site/pack/packer/start/nord-vim"
   },
   ["nvim-autopairs"] = {
     loaded = true,
-    path = "/home/sid/.local/share/nvim/site/pack/packer/start/nvim-autopairs"
+    path = "/home/wma/.local/share/nvim/site/pack/packer/start/nvim-autopairs"
   },
   ["nvim-bufferline.lua"] = {
     loaded = true,
-    path = "/home/sid/.local/share/nvim/site/pack/packer/start/nvim-bufferline.lua"
+    path = "/home/wma/.local/share/nvim/site/pack/packer/start/nvim-bufferline.lua"
   },
   ["nvim-colorizer.lua"] = {
     loaded = true,
-    path = "/home/sid/.local/share/nvim/site/pack/packer/start/nvim-colorizer.lua"
+    path = "/home/wma/.local/share/nvim/site/pack/packer/start/nvim-colorizer.lua"
   },
   ["nvim-compe"] = {
     loaded = true,
-    path = "/home/sid/.local/share/nvim/site/pack/packer/start/nvim-compe"
+    path = "/home/wma/.local/share/nvim/site/pack/packer/start/nvim-compe"
   },
   ["nvim-lspconfig"] = {
     loaded = true,
-    path = "/home/sid/.local/share/nvim/site/pack/packer/start/nvim-lspconfig"
+    path = "/home/wma/.local/share/nvim/site/pack/packer/start/nvim-lspconfig"
   },
   ["nvim-tree.lua"] = {
     loaded = true,
-    path = "/home/sid/.local/share/nvim/site/pack/packer/start/nvim-tree.lua"
+    path = "/home/wma/.local/share/nvim/site/pack/packer/start/nvim-tree.lua"
   },
   ["nvim-treesitter"] = {
     loaded = true,
-    path = "/home/sid/.local/share/nvim/site/pack/packer/start/nvim-treesitter"
+    path = "/home/wma/.local/share/nvim/site/pack/packer/start/nvim-treesitter"
   },
   ["nvim-web-devicons"] = {
     loaded = true,
-    path = "/home/sid/.local/share/nvim/site/pack/packer/start/nvim-web-devicons"
+    path = "/home/wma/.local/share/nvim/site/pack/packer/start/nvim-web-devicons"
   },
   ["packer.nvim"] = {
     loaded = false,
     needs_bufread = false,
-    path = "/home/sid/.local/share/nvim/site/pack/packer/opt/packer.nvim"
+    path = "/home/wma/.local/share/nvim/site/pack/packer/opt/packer.nvim"
+  },
+  paths = {
+    loaded = true,
+    path = "/home/wma/.local/share/nvim/site/pack/packer/start/paths"
   },
   ["plenary.nvim"] = {
     loaded = true,
-    path = "/home/sid/.local/share/nvim/site/pack/packer/start/plenary.nvim"
+    path = "/home/wma/.local/share/nvim/site/pack/packer/start/plenary.nvim"
   },
   ["popup.nvim"] = {
     loaded = true,
-    path = "/home/sid/.local/share/nvim/site/pack/packer/start/popup.nvim"
+    path = "/home/wma/.local/share/nvim/site/pack/packer/start/popup.nvim"
   },
   ["startuptime.vim"] = {
     loaded = true,
-    path = "/home/sid/.local/share/nvim/site/pack/packer/start/startuptime.vim"
+    path = "/home/wma/.local/share/nvim/site/pack/packer/start/startuptime.vim"
   },
   ["telescope-media-files.nvim"] = {
     loaded = true,
-    path = "/home/sid/.local/share/nvim/site/pack/packer/start/telescope-media-files.nvim"
+    path = "/home/wma/.local/share/nvim/site/pack/packer/start/telescope-media-files.nvim"
   },
   ["telescope.nvim"] = {
     loaded = true,
-    path = "/home/sid/.local/share/nvim/site/pack/packer/start/telescope.nvim"
+    path = "/home/wma/.local/share/nvim/site/pack/packer/start/telescope.nvim"
   },
   ["vim-auto-save"] = {
     loaded = true,
-    path = "/home/sid/.local/share/nvim/site/pack/packer/start/vim-auto-save"
+    path = "/home/wma/.local/share/nvim/site/pack/packer/start/vim-auto-save"
+  },
+  ["vim-bufonly"] = {
+    loaded = true,
+    path = "/home/wma/.local/share/nvim/site/pack/packer/start/vim-bufonly"
   },
   ["vim-closetag"] = {
     loaded = true,
-    path = "/home/sid/.local/share/nvim/site/pack/packer/start/vim-closetag"
+    path = "/home/wma/.local/share/nvim/site/pack/packer/start/vim-closetag"
   },
   ["vim-devicons"] = {
     loaded = true,
-    path = "/home/sid/.local/share/nvim/site/pack/packer/start/vim-devicons"
+    path = "/home/wma/.local/share/nvim/site/pack/packer/start/vim-devicons"
   }
 }
 

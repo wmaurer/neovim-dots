@@ -25,7 +25,7 @@ opt("o", "clipboard", "unnamedplus")
 
 -- for indenline
 opt("b", "expandtab", true )
-opt("b", "shiftwidth", 2 )
+opt("b", "shiftwidth", 4 )
 
 
 local M = {}
